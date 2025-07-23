@@ -7,12 +7,8 @@ An implementation of time series analysis algorithms leveraging UPMEM PIM archit
 ## Key Features
 - 🚀 **Massive Parallelism**: 
   - 2530 DPUs (default) × 16 tasklets per DPU
-- ⏱ **Low-Latency**: 
+- ⏱ **Efficiency**: 
   - Near-memory computation eliminates data transfer bottlenecks
-- 📊 **Window Operations**: 
-  - Efficient sliding window statistics (avg, std, etc.)
-- 🔍 **Pattern Matching**: 
-  - (Optional: Add specific algorithms like DTW/STAMP)
 
 ## Project Structure
 .
@@ -38,8 +34,6 @@ An implementation of time series analysis algorithms leveraging UPMEM PIM archit
 make  # Default: 2530 DPUs, 16 tasklets/DPU
 Custom configuration:
 
-bash
-make NR_DPUS=1024 NR_TASKLETS=8  # Reduced resource usage
 Execution
 Process built-in test data:
 
