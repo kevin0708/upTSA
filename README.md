@@ -33,6 +33,7 @@ An implementation of time series analysis algorithms leveraging UPMEM PIM archit
 ```bash
 make  # Default: 2530 DPUs, 16 tasklets/DPU
 Custom configuration:
+```
 
 Execution
 Process built-in test data:
