@@ -1,6 +1,6 @@
 # upTSA
 Time Series Analysis on UPMEM
-# Time Series Analysis on UPMEM DPUs
+## Time Series Analysis on UPMEM DPUs
 
 An implementation of time series analysis algorithms leveraging UPMEM PIM architecture for motif discovery.
 
@@ -32,11 +32,11 @@ An implementation of time series analysis algorithms leveraging UPMEM PIM archit
 ### Compilation
 ```bash
 make  # Default: 2530 DPUs, 16 tasklets/DPU
-Custom configuration:
 ```
 
-Execution
-Process built-in test data:
 
-bash
+### Execution Process built-in test data:
+
+```bash
 ./ts_host
+```
